@@ -1,9 +1,9 @@
 # SARS-CoV-2 URM Hybrid v2.4.2: Universal Reasoning Model with Knowledge Graph
 
-[![Version](https://img.shields.io/badge/version-2.4.2-blue.svg)](https://github.com/yourusername/sarscov2-urm-hybrid)
+[![Version](https://img.shields.io/badge/version-2.4.2-blue.svg)](https://github.com/NurcholishAdam/sarscov2-urm-hybrid)
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![LIMIT-GRAPH](https://img.shields.io/badge/LIMIT--GRAPH-v2.4.2-purple.svg)](https://github.com/yourusername/quantum-limit-graph-v2.4.0)
+[![LIMIT-GRAPH](https://img.shields.io/badge/LIMIT--GRAPH-v2.4.2-purple.svg)](https://github.com/NurcholishAdam/quantum-limit-graph-v2.4.0)
 
 A cutting-edge hybrid architecture combining Universal Reasoning Model (URM) recurrent loops with LIMIT-GRAPH v2.4.2 platform for SARS-CoV-2 knowledge graph tracking and quantum-enhanced reasoning.
 
@@ -20,7 +20,7 @@ This system integrates six core components in a unified workflow:
 
 **Version**: 2.4.2  
 **Release Date**: January 7, 2026  
-**Compatibility**: LIMIT-GRAPH v2.4.2, Rust 2021 Edition
+**Compatibility**: LIMIT-GRAPH v2.4.2, Rust 2026 Edition
 
 ## 🔄 Workflow Components
 
@@ -176,9 +176,9 @@ If you use this work, please cite:
 ```bibtex
 @software{sarscov2_urm_hybrid,
   title={SARS-CoV-2 URM Hybrid: Universal Reasoning Model with Knowledge Graph},
-  author={Your Name},
+  author={Nurcholish Adam},
   year={2026},
-  url={https://github.com/yourusername/sarscov2-urm-hybrid}
+  url={https://github.com/NurcholishAdam/sarscov2-urm-hybrid}
 }
 ```
 
@@ -188,3 +188,4 @@ If you use this work, please cite:
 - NCBI for protein structures
 - WHO for epidemiological guidance
 - LIMIT-GRAPH platform contributors
+
