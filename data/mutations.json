@@ -1,0 +1,115 @@
+{
+  "mutations": [
+    {
+      "id": "N501Y",
+      "name": "Asparagine to Tyrosine at position 501",
+      "position": 501,
+      "original_aa": "N",
+      "mutant_aa": "Y",
+      "protein": "Spike",
+      "domain": "Receptor Binding Domain (RBD)",
+      "impact": "increased_binding_affinity",
+      "functional_effect": "Enhanced ACE2 receptor binding",
+      "prevalence": "high",
+      "variants": ["Alpha", "Beta", "Gamma", "Omicron"]
+    },
+    {
+      "id": "E484K",
+      "name": "Glutamic acid to Lysine at position 484",
+      "position": 484,
+      "original_aa": "E",
+      "mutant_aa": "K",
+      "protein": "Spike",
+      "domain": "Receptor Binding Domain (RBD)",
+      "impact": "immune_escape",
+      "functional_effect": "Reduced neutralization by antibodies",
+      "prevalence": "moderate",
+      "variants": ["Beta", "Gamma"]
+    },
+    {
+      "id": "K417N",
+      "name": "Lysine to Asparagine at position 417",
+      "position": 417,
+      "original_aa": "K",
+      "mutant_aa": "N",
+      "protein": "Spike",
+      "domain": "Receptor Binding Domain (RBD)",
+      "impact": "immune_escape",
+      "functional_effect": "Altered antibody recognition",
+      "prevalence": "moderate",
+      "variants": ["Beta", "Omicron"]
+    },
+    {
+      "id": "L452R",
+      "name": "Leucine to Arginine at position 452",
+      "position": 452,
+      "original_aa": "L",
+      "mutant_aa": "R",
+      "protein": "Spike",
+      "domain": "Receptor Binding Domain (RBD)",
+      "impact": "increased_transmissibility",
+      "functional_effect": "Enhanced viral fitness",
+      "prevalence": "high",
+      "variants": ["Delta"]
+    },
+    {
+      "id": "P681H",
+      "name": "Proline to Histidine at position 681",
+      "position": 681,
+      "original_aa": "P",
+      "mutant_aa": "H",
+      "protein": "Spike",
+      "domain": "Furin cleavage site",
+      "impact": "increased_cleavage",
+      "functional_effect": "Enhanced spike protein processing",
+      "prevalence": "high",
+      "variants": ["Alpha", "Omicron"]
+    },
+    {
+      "id": "P681R",
+      "name": "Proline to Arginine at position 681",
+      "position": 681,
+      "original_aa": "P",
+      "mutant_aa": "R",
+      "protein": "Spike",
+      "domain": "Furin cleavage site",
+      "impact": "increased_cleavage",
+      "functional_effect": "Enhanced spike protein processing",
+      "prevalence": "high",
+      "variants": ["Delta"]
+    },
+    {
+      "id": "D614G",
+      "name": "Aspartic acid to Glycine at position 614",
+      "position": 614,
+      "original_aa": "D",
+      "mutant_aa": "G",
+      "protein": "Spike",
+      "domain": "S1/S2 boundary",
+      "impact": "increased_transmissibility",
+      "functional_effect": "Increased viral load and infectivity",
+      "prevalence": "very_high",
+      "variants": ["Beta", "Gamma", "Delta", "Omicron"]
+    },
+    {
+      "id": "T478K",
+      "name": "Threonine to Lysine at position 478",
+      "position": 478,
+      "original_aa": "T",
+      "mutant_aa": "K",
+      "protein": "Spike",
+      "domain": "Receptor Binding Domain (RBD)",
+      "impact": "immune_escape",
+      "functional_effect": "Altered antibody binding",
+      "prevalence": "high",
+      "variants": ["Delta", "Omicron"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-01-07T00:00:00Z",
+    "source": "NCBI/GISAID",
+    "total_mutations": 8,
+    "protein_focus": "Spike protein"
+  }
+}
