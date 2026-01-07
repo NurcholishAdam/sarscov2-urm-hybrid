@@ -1,0 +1,24 @@
+[package]
+name = "urm-core"
+version = "0.1.0"
+edition = "2021"
+description = "Core Universal Reasoning Model with ConvisulGLU decoder"
+license = "MIT"
+repository = "https://github.com/yourusername/sarscov2-urm-hybrid"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.35", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+ndarray = "0.15"
+rayon = "1.8"
+
+[dev-dependencies]
+approx = "0.5"
+criterion = "0.5"
+
+[[bench]]
+name = "decoder_bench"
+harness = false
